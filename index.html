@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+
+    <title>Social proof section</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <!--css -->
+    <style>
+
+* {
+    box-sizing: border-box;
+}
+
+
+    .container {
+    display: flex;
+    justify-content: center;
+ 
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    gap: 200px;
+  
+    
+  
+
+    }
+    .box1 {
+      width: 450px;
+      margin-left: 100px;
+   
+
+    }
+    .clr {
+      color: hsl(300, 43%, 22%);
+      font-family: "League Spartan", sans-serif;
+
+      font-size: 42px;
+      width: 300px;
+    }
+    .p1  {
+      color: hsl(300, 43%, 22%);
+      font-family: "League Spartan", sans-serif;
+      Font-size: 19px;
+      background-color: rgb(255, 255, 255);
+      width: 450px;
+    }
+    .rating {
+      color: hsl(300, 43%, 22%);
+      font-family: "League Spartan", sans-serif;
+      font-size: 15px;
+      
+      font-weight: bolder;
+      text-wrap: nowrap; 
+    
+    }
+    .box2 {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      padding-top: 60px;
+      padding-right: 200px;
+    }
+    .move {
+      margin-left: 97px;
+    }
+    .move2 {
+      margin-left: 147px; 
+    }
+    .rated {
+    padding-left: 30px;
+    }
+    .img1 {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      float: left;
+      margin-left: 35px;
+      margin-top: 10px;
+    
+    }
+  .color {
+    color: hsl(333, 80%, 67%);
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+   text-align: center;
+   width: 100px;
+  }
+  .title  {
+    font-family: "League Spartan", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+    margin-left: 110px;
+    text-align: left;
+  }
+  .main-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 50px;
+  }
+  .name {
+    width: 370px;
+    height: 220px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   display: inline-block;
+   padding-top: 20px;
+   padding-right: 80px;
+   border-radius: 10px;
+   background:  hsl(300, 43%, 22%);
+  }
+  .ver {
+  margin-right: 30px;
+  margin-left: 105px;
+  text-wrap: nowrap;
+ margin-top: -10px;
+  }
+  .p-3 {
+    color:  hsl(300, 24%, 96%);
+    font-family: "League Spartan", sans-serif;
+    font-size: 15px;
+    margin-left: 40px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 30px;
+    line-height: 1.2;
+  }
+  
+  .attribution {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+}
+a {
+  text-decoration: none;
+  color: hsl(333, 80%, 67%);
+  font-weight: bold;
+}
+a:hover {
+ color:  hsl(300, 43%, 22%);
+}
+
+@media (max-width: 1250px) {
+  .container, .main-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .p1 {
+   
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .box2 {
+  
+    margin-top: -150px; 
+    padding-bottom: 200px;
+    padding-left: 200px;
+     
+    
+
+  }
+    .rating {
+      font-size: 12px;
+    }
+    .p1 {
+      font-size: 16px;
+      text-wrap: wrap;
+    
+      width: 300px;
+    }
+    .clr {
+      font-size: 30px;
+      text-wrap: wrap;
+     
+      width: 200px;
+    }
+    .attribution {
+      font-size: 12px;
+    }
+}
+ 
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="box1">
+        <h1 class="clr">10,000+ of our users love our products.</h1>
+        <p class="p1">We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.</p>
+      </div>
+  
+      <div class="box2">
+        <h2 class="rating">⭐⭐⭐⭐⭐<span class="rated">Rated</span> 5 Stars in Reviews</h2>
+        <h2 class="rating move">⭐⭐⭐⭐⭐<span class="rated">Rated</span> 5 Stars in Report Guru</h2>
+        <h2 class="rating move2">⭐⭐⭐⭐⭐<span class="rated">Rated</span> 5 Stars in BestTech</h2>
+      </div>
+    </div>
+  
+    <div class="main-container">
+  
+      <div class="name">
+        <img class="img1" src="./images/image-colton.jpg" alt="profile picture">
+        <h2 class="title">Colton Smith</h2>
+        <h3 class="color ver">Verified Buyer</h3>
+        <p class="p-3">"We needed the same printed design as the one we had ordered a week prior.
+          Not only did they find the original order, but we also received it in time.
+          Excellent!"</p>
+      </div>
+  
+      <div class="name">
+        <img class="img1" src="./images/image-irene.jpg" alt="profile picture">
+        <h2 class="title">Colton Smith</h2>
+        <h3 class="color ver">Verified Buyer</h3>
+        <p class="p-3">"We needed the same printed design as the one we had ordered a week prior.
+          Not only did they find the original order, but we also received it in time.
+          Excellent!"</p>
+      </div>
+  
+      <div class="name">
+        <img class="img1" src="./images/image-anne.jpg" alt="profile picture">
+        <h2 class="title">Colton Smith</h2>
+        <h3 class="color ver">Verified Buyer</h3>
+        <p class="p-3">"We needed the same printed design as the one we had ordered a week prior.
+          Not only did they find the original order, but we also received it in time.
+          Excellent!"</p>
+      </div>
+  
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/challenges" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Linel Almonte</a>.
+    </div>
+  
+  </body>
+  </html>
